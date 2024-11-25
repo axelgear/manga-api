@@ -19,12 +19,7 @@ app.use("/api/chapter", chapter);
 app.use("/api", (req, res) => {
   res.send({
     status: true,
-    message: "For more info, check out https://github.com/febryardiansyah/manga-api",
-    find_me_on: {
-      facebook: "https://www.facebook.com/febry.ardiansyah.792/",
-      instagram: "https://instagram.com/febry_ardiansyah24",
-      github: "https://github.com/febryardiansyah/manga-api",
-    },
+    message: "hello",
   });
 });
 // 404 route
